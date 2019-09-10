@@ -22,6 +22,12 @@ Runs the app.<br>
 
 Open [http://localhost/login](http://localhost/login) to view it in the browser.
 
+**Note:**
+Default credentials  
+login: montana@gmail.com  
+pas: qwerty 
+
+#### Clean up 
 
 ```
 # kill containers (DB data will be lost)
