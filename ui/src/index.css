@@ -1,0 +1,26 @@
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+  'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  min-width: 1024px;
+  height: 100vh;
+  background-color: #c3d5dc;
+  /*background-color: #DFE9EE;*/
+  color: #000;
+  font-size: 62.5%;
+
+}
+.notFound {
+  font-size: 500%;
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 0.5rem 1rem;
+}

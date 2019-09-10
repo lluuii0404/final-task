@@ -1,0 +1,129 @@
+.content-wrapper{
+    padding: 0 10rem;
+    width: 100%;
+    min-height: calc(100vh - 10rem);
+}
+
+.content-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: inherit;
+}
+.block-info,
+.block-edit-info{
+    padding: 1rem;
+    width:45%;
+    font-size: 1rem;
+    max-width: 550px;
+}
+.block-info{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.block-info h2,
+.block-edit-info h2{
+    margin: 0.5rem 0 ;
+    text-align: center;
+    text-decoration: overline;
+    color: #3F798F;
+}
+.block-info p{
+    font-size: 0.9rem;
+    color: #3F798F;
+}
+.block-info span {
+    display: block;
+    font-size: 1.1rem;
+    color: #000;
+    text-align: right;
+    padding-right: 1rem;
+}
+.block-info p:nth-last-child(1) span{
+    display: block;
+    height: 20rem;
+    overflow: scroll;
+    text-align: justify;
+    padding: 0.3rem 0.5rem;
+}
+
+.block-edit-info{
+    min-height: calc(100vh - 10rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.block-edit-info h2{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.fields .field_label{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #79868a;
+
+}
+.fields .field_input,
+.fields .field_textarea{
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    border:none;
+    border-bottom: 1px solid #3F798F;
+    background-color: #ecf3fb;
+}
+.fields .field_input::placeholder,
+.fields .field_textarea::placeholder{
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-style: italic;
+}
+.fields .field_textarea{
+    resize: none;
+    rows: 5;
+}
+
+
+.buttons{
+    /*border: 1px solid red;*/
+    /*margin: 2rem 0 0 0;*/
+    /*text-align: l;*/
+    /*margin: 0 auto;*/
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 0.4rem 2.5rem;
+    border-radius: 0.6rem;
+    background-color: #3F798F;
+    border: 1px solid #3F798F;
+    position: relative;
+    color: #DFE9EE;
+}
+.btn:hover{
+    /*border: 1px solid #acbec5;*/
+    border: 1px solid #A68B4999;
+    /*background-color: #acbec5;*/
+    background-color: #A68B4999;
+    /*color: black;*/
+    cursor: pointer;
+}
+.btn:disabled {
+    /*background-color: #5c8899;*/
+    background-color: #acbec5;
+    border: 1px solid #acbec5;
+    color: gray;
+}
+.btn span{
+    position: absolute;
+    left: 1rem;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    background-size: cover;
+    background-image: url("../_img/checked.svg");
+}
