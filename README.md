@@ -2,7 +2,7 @@
 #### First step:
 ```
 clone repository
-$ git clone ...
+$ git clone https://github.com/lluuii0404/final-tasks.git
 $ cd company-app
 ```
 
